@@ -1,4 +1,4 @@
-package main
+package whatsapptoplumesaj
 
 func main() {
 	// wp := NewWhatsappClient("1N0PbCli93vRTHny2pINg-tkq8yUPedq")

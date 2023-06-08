@@ -1,4 +1,4 @@
-package main
+package whatsapptoplumesaj
 
 type WpConn struct {
 	ApiKey string `json:"api_key"`
