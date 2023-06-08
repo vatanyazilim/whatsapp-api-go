@@ -34,7 +34,7 @@ Page: 1,
 
 ```golang
 // Send Message
- wp.SendMessage(&ISendMessage{
+res, err := wp.SendMessage(&ISendMessage{
    Identifier: "905452716912.0:91@s.whatsapp.net",
    To: "+905452716912", 
    Message: "test message",
