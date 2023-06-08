@@ -45,7 +45,7 @@ Page: 1,
 //multi Message
 res, err := wp.SendMultiMessage(&ISendMultiMessageReq{
  	Name:      "Test Message Title",
-	 DeviceID:  301,
+	DeviceID:  301,
  	Numbers:   "+905452716912,+905452716912,+905452716912,+905452716912",
  	TimePost:  "",
  	SendSpeed: 1,
