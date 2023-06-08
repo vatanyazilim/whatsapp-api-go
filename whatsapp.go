@@ -142,9 +142,11 @@ func (wp *WhatsappClient) DeviceList(reqBody IDeviceListBody) (IDeviceList, erro
 	requestBody := struct {
 		ApiKey string `json:"api_key"`
 		Page   int    `json:"page"`
+		Type   int    `json:"type"`
 	}{
 		ApiKey: wp.apiKey,
 		Page:   reqBody.Page,
+		Type:   1,
 	}
 	jsonData, err := json.Marshal(requestBody)
 	if err != nil {
