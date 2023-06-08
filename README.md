@@ -49,7 +49,7 @@ res, err := wp.SendMultiMessage(&ISendMultiMessageReq{
  	Numbers:   "+905452716912,+905452716912,+905452716912,+905452716912",
  	TimePost:  "",
  	SendSpeed: 1,
-  Message:   "test messages",
+        Message:   "test messages",
  })
 ```
 
